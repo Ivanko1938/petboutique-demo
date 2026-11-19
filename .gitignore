@@ -1,0 +1,19 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Variables de entorno (claves reales: nunca se suben)
+.env
+
+# Base de datos local de la demo (se crea sola al arrancar)
+*.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editores y sistema
+.vscode/
+.DS_Store

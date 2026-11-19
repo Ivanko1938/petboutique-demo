@@ -1,0 +1,26 @@
+<svg width="600" height="200" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
+  <title>Logo PetBoutique</title>
+  <desc>Logo de PetBoutique con huella estilizada junto al nombre</desc>
+
+  <style>
+    .paw-pad { fill: #2D6A4F; }
+    .paw-toe { fill: #E76F51; }
+    .brand-name { font-family: Georgia, serif; font-size: 48px; font-weight: 700; fill: #2D6A4F; letter-spacing: 2px; }
+    .brand-sub { font-family: Georgia, serif; font-size: 14px; font-weight: 400; fill: #E76F51; letter-spacing: 6px; }
+  </style>
+
+  <rect width="680" height="200" fill="white"/>
+
+  <g transform="translate(75, 95)">
+    <ellipse cx="0" cy="0" rx="28" ry="22" class="paw-pad" transform="rotate(-10)" opacity="0.92"/>
+    <ellipse cx="-38" cy="-28" rx="13" ry="16" class="paw-toe" transform="rotate(-20)"/>
+    <ellipse cx="-14" cy="-46" rx="13" ry="16" class="paw-toe" transform="rotate(-5)"/>
+    <ellipse cx="16" cy="-46" rx="13" ry="16" class="paw-toe" transform="rotate(5)"/>
+    <ellipse cx="40" cy="-28" rx="13" ry="16" class="paw-toe" transform="rotate(20)"/>
+  </g>
+
+  <text x="140" y="85" class="brand-name">PetBoutique</text>
+  <text x="142" y="115" class="brand-sub">CUIDAMOS LO QUE MÁS QUIERES</text>
+
+  <line x1="140" y1="127" x2="580" y2="127" stroke="#2D6A4F" stroke-width="1.5" opacity="0.3"/>
+</svg>
